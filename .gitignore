@@ -2,3 +2,4 @@
 .idea
 GitHelp.txt
 __pycache__
+.gitignore
