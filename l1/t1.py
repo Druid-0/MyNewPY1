@@ -1,6 +1,6 @@
 
 
-class Hero:
+class Character:
     def __init__(self, name, hp, atk):
         self.name = name
         self.hp = hp
@@ -10,8 +10,8 @@ class Hero:
         self.hp -= self.atk()
 
 
-chel = Hero("Chel", 40, 20)
-boss = Hero("Boss", 100, 10)
+chel = Character("Chel", 40, 20)
+boss = Character("Boss", 100, 10)
 
 # chel.attack()
 

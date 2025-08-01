@@ -1,5 +1,5 @@
 .venv
 .idea
-GitHelp.txt
+#GitHelp.txt
 __pycache__
 .gitignore
