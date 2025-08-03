@@ -7,7 +7,7 @@ class Character:
         self.atk = atk
 
     def attack(self):
-        self.hp -= self.atk()
+        self.hp -= self.atk
 
 
 chel = Character("Chel", 40, 20)
