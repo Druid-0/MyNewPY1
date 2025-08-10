@@ -50,11 +50,15 @@ class HeroWarrior(Hero):
             self.rage += 25
 
 
+obj1 = Hero("John Doe", 10, 100)
+
 mage = HeroMage(name="Merlin", hp=80, mp=500, lvl=5, spell_book=["Fireball", "Teleport"])
 warrior = HeroWarrior(name="Conan", lvl=8, hp=150)
 
 
 # Вызовы методов:
+obj1.action()
+
 mage.action()       # Выведет: base action
 mage.show_spells()  # Выведет: доступные заклинаня: ['Fireball', 'Teleport']
 warrior.action()    # Выведет: Герой готов к атаке!
